@@ -1,2 +1,20 @@
 https://nprintingtest.qliktech.com:4993/#/dashboard           --------Test
 https://qtnprinting:4993/#/dashboard                                          --------Prod
+
+
+------BackupScripts----------
+cd C:\Program Files\NPrintingServer\Tools\Manager
+\Qlik.Nprinting.Manager.exe backup -f C:\NPrintingBackups\NP_Backup.zip -p "C:\Program Files\NPrintingServer\pgsql\bin" --pg-password secretPassword
+
+PW
+
+qlikdb - Backup password NPrinting TEST
+Qlik1234 - Backup password NPrinting PROD
+
+
+----------Main User-----------------
+
+
+qtsel\svc-nprinting
+Caramba2015!
+
